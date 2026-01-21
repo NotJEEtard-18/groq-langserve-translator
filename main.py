@@ -25,7 +25,7 @@ chain = prompt_template | model | parser
 ## App definition
 app = FastAPI(title = "LCEL Basic App with Groq LLM", 
                 version = "1.0", 
-                description = "An app demonstrating the use of LCEL with Groq LLM to translate text")
+                description = "This app demostrates Language Translator using Langchain LCEL Library and GroqAI API Key.")
 
 
 ##Adding routes
